@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family:'fontn';
+	src: url("../woff/NanumSquareNeoTTF-bRg.woff") format("woff");
+}
+
+*{
+	font-family:'fontn';
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+    position: relative;
+    background-color: #75bffa;
+   	margin: 0px 0px 20px 0px;
+}
+
+.form{
+	margin: 60px;
+	border: 1px solid #c6c6c6;
+	background-color: #eeebeb;
+	height: 240px; width: 240px;
+	border-radius: 40px;
+}
+
+.form_inner{
+	width: 200px; height: 120px;
+	margin: 40px 20px 40px 20px;
+}
+
+.form_input_file{
+	width:198px; height:38px;
+	margin: 10px 0px 0px 0px;
+	text-align:center;
+}
+.form_input_text{
+	width:198px; height:38px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	margin: 10px 0px 10px 0px;
+	text-align:center;
+}
+.form_input_search{
+	width:298px; height:38px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	margin: 10px 0px 10px 0px;
+	text-align:left;
+}
+.form_input_button{
+	width:80px; height:35px;
+	border:0px;
+	border-radius: 10px;
+	background-color:#3498db;
+	color:white;
+	margin: 10px 10px 10px 10px;
+	cursor:pointer;
+}
+
+.form_input_button:hover{
+	background-color:#75bffa;
+	color:white;
+}
+.errMsg{
+	font-size:14px;
+	color:red;
+}
+
+.select_group{
+	width:98px; height:38px;
+	margin: 10px 3px 10px 3px;
+	cursor:pointer;
+}
+
+.select_search{
+	width:78px; height:38px;
+	margin: 10px 3px 10px 3px;
+	cursor:pointer;
+}
+
+select{
+	width:80px; height:20px;
+	margin: 10px 3px 10px 3px;
+	cursor:pointer;
+}
+
+.standard_ul{
+	list-style:none;
+	align-items: center;
+}
+
+.standard_ul>li{
+	display: inline;
+}
+
+.standard_ul>li::after{
+  content: "|";
+  align-items: center;
+}
+
+.standard_ul>li:last-child::after{
+  content: "";
+}
+
+.standard_ul>li>a{
+  padding: 10px;
+}
+
+.if_a{
+  text-decoration: none;
+  color:#75bffa;
+  display: inline-block;
+  cursor:pointer;
+}
+
+.if_a:hover{
+	cursor:pointer;
+	color:red;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  cursor:pointer;
+}
+
+a:hover{
+	color:#75bffa;
+	cursor:pointer;
+}
+
+.a_board{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  cursor:pointer;
+}
+
+.a_board:hover{
+	text-decoration:underline;
+	text-underline-position: under;
+	color:black;
+	cursor:pointer;
+}
+
+.table_style{
+	text-align: center;
+	border-spacing: 10px 10px;
+}
+
+.li_top{
+	width:180px; height:50px;
+	margin-bottom:5px;
+	border:none;
+	background-color:white;
+	border-bottom:2px solid #065093;
+	font-size:20px;
+	text-align:center;
+}
+.work_button{
+	width:180px; height:50px;
+	margin-bottom:5px;
+	border:none;
+	background-color:white;
+	border-bottom:2px solid #065093;
+	cursor:pointer;
+	font-size:12px;
+}
+
+.work_button:hover{
+	color:white;
+	background-color:#75bffa;
+}
+
+.chat_div_left{
+	width:180px;
+	float:left;
+	margin-top:9px; 
+	border:1px solid #333;
+	background-color:yellow;
+}
+.chat_div_right{
+	width:180px;
+	float:right;
+	margin-top:9px; 
+	border:1px solid #333;
+	background-color:skyblue;
+}
+
+.group_text{
+	width:200px;
+	margin: 10px 10px 10px 10px;
+}
+
+hr{
+	border:solid 1px #000;
+}
+
+nav{
+	position: fixed;
+	background-color:white;
+	width:100%;
+	top:0;
+	z-index:1;
+}
+
+.work_div_main{
+	position:relative;
+	width: 100%;
+	clear: both;
+}
+
+.work_div_menu{
+	position:relative;
+	display:block;
+	text-align:left;
+	width:200px;
+	float:left;
+	top:196px;
+}
+
+.work_div_contents{
+	position:relative;
+	float:right;
+	display:block;
+	width:83%;
+	top:196px;
+}
+
+.work_ul{
+	padding:0 10px;
+	margin-top:6px;
+	line-height:24px;
+}
+
+.work_ul>li{
+	display:list-item;
+	margin-top: 2px;
+	position: relative;
+	list-style:none;
+}
+.table_nav{
+	width:200px; height:50px;
+	position:relative;
+	table-layout:fixed;
+}
+
+vr { 
+    display: block;
+    width:2px;
+    background-color:#000;
+    position:fixed;
+    top:196px;
+    bottom:0;
+    left:200px;
+}
+
+.group_button{
+	width:100px; height:100px;
+	border:0px;
+	border-radius: 10px;
+	background-color:#3498db;
+	color:white;
+	margin: 10px 10px 10px 10px;
+	cursor:pointer;
+}
