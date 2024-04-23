@@ -15,3 +15,6 @@
 * 간트 차트
 * 자료 게시판
 * 그룹 내 멤버에게 업무부여
+
+## 시연 영상
+[![Video Label](http://img.youtube.com/vi/FaL1VEJ4fz4/0.jpg)](https://youtu.be/FaL1VEJ4fz4)
